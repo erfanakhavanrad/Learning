@@ -1,4 +1,4 @@
-package com.timbuchalka.array.referenceTypeVSValueType;
+package com.timbuchalka.Array.referenceTypeVSValueType;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.timbuchalka.array.arrayChallenge;
+package com.timbuchalka.Array.arrayChallenge;
 
 import java.util.Arrays;
 import java.util.Scanner;

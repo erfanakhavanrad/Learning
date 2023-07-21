@@ -1,4 +1,4 @@
-package com.timbuchalka.array.reverseArrayChallenge;
+package com.timbuchalka.Array.reverseArrayChallenge;
 
 import java.util.Arrays;
 

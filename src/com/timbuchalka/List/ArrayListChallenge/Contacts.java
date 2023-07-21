@@ -1,4 +1,4 @@
-package com.timbuchalka.list.ArrayListChallenge;
+package com.timbuchalka.List.ArrayListChallenge;
 
 /**
  * @author Erfan Akhavan Rad

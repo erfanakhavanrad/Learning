@@ -1,4 +1,4 @@
-package com.timbuchalka.list.ArrayList;
+package com.timbuchalka.List.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Scanner;
