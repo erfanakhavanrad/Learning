@@ -58,7 +58,6 @@ public class GroceryList {
         groceryList.remove(position);
     }
 
-
     private int findItem(String searchItem) {
         return groceryList.indexOf(searchItem);
     }
