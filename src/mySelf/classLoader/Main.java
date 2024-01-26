@@ -1,4 +1,4 @@
-package mySelf.ClassLoader;
+package mySelf.classLoader;
 
 import com.timbuchalka.Abstraction.Interfaces.ITelephone;
 import com.timbuchalka.List.ArrayListChallenge.Contacts;

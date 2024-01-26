@@ -1,7 +1,5 @@
 package broCode.snake;
 
-import lombok.NoArgsConstructor;
-
 import javax.swing.*;
 import java.awt.*;
 
