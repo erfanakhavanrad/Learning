@@ -35,8 +35,8 @@ public class Main {
 //        ArrayList<int> intArrayList = new ArrayList<int>();
         ArrayList<IntClass> intClassArrayList = new ArrayList<IntClass>();
         intClassArrayList.add(new IntClass(44));
-        Integer integer = new Integer(43);
-        Double doubleValue = new Double(23.1);
+        Integer integer = 43;
+        Double doubleValue = 23.1;
 
         ArrayList<Integer> intArrayList = new ArrayList<>();
 //        for (int i = 0; i < 10; i++) {
