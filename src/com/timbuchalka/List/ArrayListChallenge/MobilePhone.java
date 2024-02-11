@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 public class MobilePhone {
 
-    ArrayList<Contacts> contactsArrayList = new ArrayList<>();
+    public ArrayList<Contacts> contactsArrayList = new ArrayList<>();
 
     public void addNewContact(String name, String number) {
         Contacts contacts = new Contacts();
