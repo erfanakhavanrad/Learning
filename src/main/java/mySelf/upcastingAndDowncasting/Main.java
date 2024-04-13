@@ -24,7 +24,7 @@ public class Main {
 
     private static void doAnimalStuff(Animal animal) {
         animal.makeNoise();
-
+        // DownCasting
         if (animal instanceof Dog) {
             Dog myDog = (Dog) animal;
             myDog.growl();
