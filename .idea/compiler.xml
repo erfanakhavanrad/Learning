@@ -10,8 +10,10 @@
         <module name="Codes" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Codes" target="17" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Codes" options="-parameters" />
+    </option>
   </component>
 </project>
