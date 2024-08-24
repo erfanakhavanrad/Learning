@@ -10,4 +10,14 @@ public class Main {
 
     }
 
+    public double calculate(int a345, int b) {
+        System.out.println(a345 + b);
+        return a345 + b;
+    }
+
+    public String calculate(double aadawd, int b) {
+        System.out.println(aadawd + b);
+        return "a + b";
+    }
+
 }

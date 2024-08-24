@@ -10,8 +10,5 @@
         <module name="Codes" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Codes" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
