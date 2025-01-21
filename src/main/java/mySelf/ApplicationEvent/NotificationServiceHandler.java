@@ -1,5 +1,6 @@
 package mySelf.ApplicationEvent;
 
+import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 /**
@@ -8,7 +9,9 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class NotificationServiceHandler {
-    public void notifyPatients() {
-        System.out.println("Notification Service: Sending discharge notification for patients.");
+
+    @EventListener
+    public void notifyPatients(PatientDischargeEvent patientDischargeEvent) {
+        System.out.println("Notification Service: Sending discharge notification for patient: " + patientDischargeEvent.getPatientName());
     }
 }

@@ -1,5 +1,6 @@
 package mySelf.ApplicationEvent;
 
+import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 /**
@@ -8,7 +9,10 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class HouseKeepingServiceHandler {
-    public void cleanAndAssign(){
-        System.out.println("Housekeeping Service: Preparing room for next patient after discharge.");
+
+    @EventListener
+    public void cleanAndAssign(PatientDischargeEvent patientDischargeEvent) {
+        System.out.println("Housekeeping Service: Preparing room for next patient after discharge." + patientDischargeEvent.getPatientId());
     }
+
 }

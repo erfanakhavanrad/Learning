@@ -4,4 +4,5 @@ spring:
       uri: http://localhost:8681
 
   application:
+
     name: learning #This must be application name

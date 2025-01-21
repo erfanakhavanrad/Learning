@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/discharge/api")
 public class DischargeProcessController {
+
     @Autowired
     private PatientDischargeService patientDischargeService;
 

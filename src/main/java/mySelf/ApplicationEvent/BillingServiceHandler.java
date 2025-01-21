@@ -1,5 +1,6 @@
 package mySelf.ApplicationEvent;
 
+import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 /**
@@ -8,8 +9,10 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class BillingServiceHandler {
-    public void processBill(){
-        System.out.println("Billing Service: Finalizing bill for patient");
 
+    @EventListener
+    public void processBill(PatientDischargeEvent patientDischargeEvent) {
+        System.out.println("Billing Service: Finalizing bill for patient" + patientDischargeEvent.getPatientId());
     }
+
 }

@@ -1,5 +1,6 @@
 package mySelf.ApplicationEvent;
 
+import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 /**
@@ -8,7 +9,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class MedicalServiceHandler {
-    public void updatePatientHistory() {
-        System.out.println("Medical Records Service: Updating records for patient.");
+    @EventListener
+    public void updatePatientHistory(PatientDischargeEvent patientDischargeEvent) {
+        System.out.println("Medical Records Service: Updating records for patient." + patientDischargeEvent.getPatientId());
     }
 }
